@@ -15,5 +15,27 @@ public class Rabbit {
 
 
    }
+   // metoda pokazującaa nowe imię
+    public String vievname(){
+       return name;
+    }
+public void changeSoftness(boolean softness){
+       this.softness=softness;
+}
+    public boolean vievSoft(){
+       return softness;
+}
+public void changeLength(int length){
+       this.length=length;
+}
+public int vievLength(){
+       return length;
+}
+public double changeLengthUnit(int length){
+       double cale=length*2.54;
+       return cale;
+
+
+}
 
 }
