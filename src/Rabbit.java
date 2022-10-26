@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
 public class Rabbit {
-    private int length;
+    private double length;
     private String name;
     private boolean softness;
-   Rabbit(int length, String name, boolean softness){
+   Rabbit(double length, String name, boolean softness){
         this.length=length;
         this.name=name;
         this.softness=softness;
@@ -25,17 +25,16 @@ public void changeSoftness(boolean softness){
     public boolean vievSoft(){
        return softness;
 }
-public void changeLength(int length){
+public void changeLength(double length){
        this.length=length;
 }
-public int vievLength(){
+public double vievLength(){
        return length;
 }
-public double changeLengthUnit(int length){
+public double changeLengthUnit(double length){
        double cale=length*2.54;
+       this.length=cale;
        return cale;
-
-
 }
 
 }

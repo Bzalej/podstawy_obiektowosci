@@ -9,5 +9,7 @@ public class Main {
         System.out.println(krolik1.vievSoft());
         System.out.println(krolik1.vievLength());
         System.out.println(krolik1.changeLengthUnit(krolik1.vievLength()));
+        System.out.println(krolik1.vievLength());
+
     }
 }
